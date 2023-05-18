@@ -3,10 +3,10 @@
             var table_area = document.getElementById('table-area');
 
             for (var i = 1; i <= 5; i++) {
-                // Create table element
+                
                 var table = document.createElement('table');
                 table.className = "table table-bordered"
-                // Create table header row
+             
                 var headerRow = document.createElement('tr');
                 headerRow.className = "date"
                 var headerCell = document.createElement('th');
@@ -22,7 +22,7 @@
                 headerRow2.appendChild(headerCell2);
                 table.appendChild(headerRow2);
 
-                // Create table data rows
+                
                 for (var j = 1; j <= 1; j++) {
                     var dataRow = document.createElement('tr');
 
@@ -78,12 +78,12 @@
                     table.appendChild(dataRow4);
                 }
 
-                // Append table to the body
+                
                 table_area.appendChild(table);
             }
         }
 
-        // Call the function to create tables
+       
         createTables();
 
 
